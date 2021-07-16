@@ -1,0 +1,4 @@
+<form> is autodetacting it is a form and its create a form for us. we dont want it so there is [formGroup] = "ourFormName"  so its pass
+our form as an argument.. so this form connect to our form
+
+in input give formControlName = "which is in my form"
