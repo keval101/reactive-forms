@@ -27,6 +27,23 @@ export class AppComponent implements OnInit{
       'hobbies' : new FormArray ( [], Validators.required)
     });
 
+    // //setValue
+    // this.signupForm.setValue({
+    //   userData :{
+    //     'username' : 'keval',
+    //     'email' : 'kevalvadhiya@gmail.com'
+    //   },
+    //   'gender': 'Male',
+    //   'hobbies' : []
+    // });
+
+
+    //patchValue
+    // this.signupForm.patchValue({
+    //   userData :{
+    //     'username' : 'keval221',
+    //   },
+    // })
 
     // this.signupForm.statusChanges.subscribe(
     //   (values) => console.log(values)
